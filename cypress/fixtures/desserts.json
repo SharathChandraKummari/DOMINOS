@@ -1,0 +1,29 @@
+{
+    "menuItems": [
+        {
+            "itemCategory": "Dessert",
+            "items": [
+                {
+                    "itemName": "Choco Lava Cake + Pepsi",
+                    "itemPrice": "149"
+                },
+                {
+                    "itemName": "Red Velvet Lava Cake",
+                    "itemPrice": "139"
+                },
+                {
+                    "itemName": "Choco Lava Cake",
+                    "itemPrice": "109"  
+                },
+                {
+                    "itemName": "Butterscotch Mousse Cake",
+                    "itemPrice": "109"     
+                },
+                {
+                    "itemName": "Brownie Fantasy",
+                    "itemPrice": "79"
+                }
+            ]
+        }
+    ]
+}

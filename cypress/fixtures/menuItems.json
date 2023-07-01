@@ -1,0 +1,42 @@
+{
+    "menuItems": [
+        {
+            "itemCategory": "Bestsellers",
+            "items": [
+                {
+                    "itemName": "Margherita",
+                    "itemPrice": "239",
+                    "itemQty":"3",
+                    "decQty":"1"
+                },
+                {
+                    "itemName": "Farmhouse",
+                    "itemPrice": "459",
+                    "itemQty":"1"  
+                }
+            ]
+        },
+        {
+            "itemCategory": "New Launches",
+            "items": [
+                {
+                    "itemName": "Blazing Onion & Paprika",
+                    "itemPrice": "329",
+                    "itemQty":"3",
+                    "decQty":"1"
+                },
+                {
+                    "itemName": "Fiery Sausage & Paprika",
+                    "itemPrice": "449",
+                    "itemQty":"1"   
+                },
+                {
+                    "itemName": "Blazing Chicken & Paprika",
+                    "itemPrice": "449",
+                    "itemQty":"1"
+                }
+         
+            ]
+        }
+    ]
+}
