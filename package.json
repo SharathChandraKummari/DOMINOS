@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clean":"npm cache clean --force",
-    "test":"npx cypress run"
+    "clean": "npm cache clean --force",
+    "test": "npx cypress run"
   },
   "keywords": [],
   "author": "",
