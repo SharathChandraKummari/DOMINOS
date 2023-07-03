@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test":"npx cypress run",
-    "cy:run:dev": "npx cypress run --config-file dev-config.js --headed"
+    "test":"npx cypress run"
   },
   "keywords": [],
   "author": "",
