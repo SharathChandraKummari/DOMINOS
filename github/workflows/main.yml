@@ -1,11 +1,8 @@
 name: Cypress Tests using Cypress Docker Image
-
-on: push
-
+on: [push]
 jobs:
   cypress-run:
-    runs-on: ubuntu-22.04
-    container: cypress/browsers:node16.16.0-chrome107-ff107-edge
+    runs-on: ubuntu-lstest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
