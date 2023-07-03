@@ -19,5 +19,6 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v5
         with:
+          clean : npm cache clean --force
           build: npm run build
           start: npm start
