@@ -18,7 +18,6 @@ import './commands.js'
 /// <reference types="Cypress" />
 require('cypress-xpath');
 //require('cypress-plugin-api')
-const { faker } = require('@faker-js/faker');
 Cypress.on('uncaught:exception', (err, runnable) => {
   // returning false here prevents Cypress from
   // failing the test
