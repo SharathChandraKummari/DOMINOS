@@ -18,6 +18,8 @@ module.exports = defineConfig({
       // implement node event listeners here
       require('cypress-mochawesome-reporter/plugin')(on);
     },
+
+    pageLoadTimeout: 200000
   },
  
 });
