@@ -2,19 +2,20 @@
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-action
 
 
-name: Cypress CI
-on:
-  push:
-    branches:
-      - 'master'
+name: Cypress Tests
+
+on: push
 
 jobs:
-  cypress-test:
-    runs-on: windows-latest
+  cypress-run:
+    runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v3
-      
+      - name: Checkout
+        uses: actions/checkout@v3
+      # Install NPM dependencies, cache them correctly
+      # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v5
         with:
+          build: npm run build
           start: npm start
